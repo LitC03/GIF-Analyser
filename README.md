@@ -19,12 +19,11 @@ This is a command-line utility, developed in C++, designed to parse, decode, and
 
 ### For Windows (using MinGW)
 
-1.  Ensure you have MinGW installed and that its `bin` directory has been added to your system's PATH environment variable.
-2.  Open Command Prompt or PowerShell, navigate to the directory containing `a1.cpp`, and execute the following command to compile the application:
+1.  Open Command Prompt or PowerShell, navigate to the directory containing `a1.cpp`, and execute the following command to compile the application:
     ```
     g++ GIF_Analyser.cpp -o GIF_Analyser.exe -std=c++11
     ```
-3.  To run the program, use the following command:
+2.  To run the program, use the following command:
     ```
     GIF_Analyser.exe
     ```
